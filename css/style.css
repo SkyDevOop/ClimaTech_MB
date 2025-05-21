@@ -20,7 +20,10 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
+a:-webkit-any-link
+{
+    cursor: default;
+}
 /* En-tête */
 header {
     background-color: #fff;
